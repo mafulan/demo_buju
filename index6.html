@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+         .parent{
+            width: 1100px;
+            height: 1000px;
+            background: url('img/main_bg.jpg') repeat;
+            /* padding-left:83px ; */
+            padding-right: 176px;
+            margin: 0 auto;
+            position: relative;
+        }
+        header .img1{
+            padding-left:83px ; 
+            padding-top: 53px;
+           
+        }
+        header .nav{
+            width: 644px;
+            float: right;
+        }
+        .nav li{
+            width: 92px;
+            float: left;
+        }
+        .nav a{
+            display: block;
+            height: 119px;
+            background: url('img/main_menubj.jpg') repeat-y;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            line-height: 119px;
+            }
+            .nav .a1{
+                border-radius:0 0 0 25px;
+            }
+            .nav .a7{
+                border-radius:0 0 25px 0;
+            }
+            .nav a:hover{
+                background: url('img/05_1.jpg') repeat-y;
+            }
+            header .img2{
+                padding-left: 275px;
+                padding-top: 34px;
+
+            }
+            header .img3{
+             margin-top: 19px;
+             border-radius: 38px;
+             border: 4px #da6b26 solid;
+             padding: 3px;
+
+            }
+            header div{
+                width: 1100px;
+                height: 78px;
+                background-color: #1d1311;
+                border-top: 8px solid rgba(77,51,28,0.8);
+                border-bottom: 8px solid rgba(77,51,28,0.8);
+                margin-top: 12px;
+            }
+            header div img{
+                padding-left: 82px;
+            }
+            header div p{
+                float: right;
+                color: white;
+                font-size: 16px;
+                padding-right: 206px;
+                text-align: center;
+                line-height: 70px;
+            }
+            section .left{
+                width: 243px;
+                padding-left: 83px;
+               
+                float: left;
+            }
+            .left li{
+                width: 160px;
+                float: left;
+            }
+            .left a{
+                display: block;
+                height: 30px;
+                color: #8a6d5b;
+                font-size: 14px;
+                line-height: 24px;
+                text-decoration: underline  #8a6d5b;
+
+            }
+            .left a:hover{
+                color: white;
+                text-shadow:0px 0px 2px #fff, 0px 0px 7px #f72, 0px 0px 14px #f84;
+                }
+                
+          .left img{
+            border: 1px #8a6d5b solid;
+            margin-top: 20px;
+          }
+         section .right{
+             width: 590px;
+             float: right;
+             padding-right: 220px;
+            
+
+          }
+          .right .p1{
+              font-size: 20px;
+              color: white;
+              padding-top: 15px;
+          }
+          .right .div0{
+              width: 590px;
+              height: 1px;
+              background-color: rgba(255,255,255,0.3);
+              margin-top: 13px;
+              margin-bottom: 45px;
+          }
+          .right .p2{
+              font-size: 30px;
+              color: #3b6891;
+              padding-bottom: 8px;
+
+          }
+          .right .p3{
+              font-size: 18px;
+              color: white;
+              padding-bottom: 24px;
+          }
+          .right .div1{
+              width: 590px;
+              height: 50px;
+              border: 1px #8a6d5b solid;
+              position: relative;
+          }
+          .right .div1 p{
+              font-size: 18px;
+              color: white;
+              text-align: center;
+              line-height: 50px;
+          }
+          .div1 .p1{
+              position: absolute;
+              left:17px ;
+              top:-15px;
+          }
+          .div2 .a1,.div3 .a1 ,.div4 .a1 ,.div5 .a1{
+            position: absolute;
+              left:17px ;
+              top:0;
+          }
+          .div1 .p2,.div2 .a2,.div3 .a2 ,.div4 .a2 ,.div5 .a2{
+              position: absolute;
+              left:100px ;
+              top: 0;
+          }
+          .div1 .p3 ,.div2 .a3 ,.div3 .a3 ,.div4 .a3 ,.div5 .a3{
+              position: absolute;
+              left:330px ;
+              top: 0;
+          }
+          .div1 .p4 ,.div2 .a4 ,.div3 .a4 ,.div4 .a4,.div5 .a4{ 
+              position: absolute;
+              left:470px ;
+              top: 0;
+          }
+          .div1 .p5{
+              position: absolute;
+              left:550px ;
+              top: 0;
+          }
+          .right .div2,.right .div4{
+              width: 590px;
+              height: 50px;
+              position: relative;
+          }
+          .div2 p,.div3 p,.div4 p,.div5 p{
+              font-size: 18px;
+              color: #8a6d5b;
+              text-align: center;
+              line-height: 50px;
+          }
+          .div2 img ,.div3 img ,.div5 img{ 
+              position: absolute;
+              left:550px ;
+              top: 20px;
+          }
+
+          .right .div3,.right .div5{
+              width: 590px;
+              height: 50px;
+              background-color: #2d1e0b;
+              position: relative;
+          }
+          .right button{
+            display: block;
+            padding: 0;
+            border: none;
+            margin: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #427dc3;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            line-height: 16px;
+            cursor: pointer;
+            
+          }
+          .right .btn1{
+            position: absolute;
+            left:500px ;
+            top: 810px;
+          }
+          .btn2{
+            position: absolute;
+            left:630px ;
+            top: 810px;
+          }
+          .pp{
+              font-size: 14px;
+              color: #8a6d5b;
+              position: absolute;
+              left:520px ;
+              top: 810px;
+          }
+          footer{
+             display: block;
+             width: 1067px;
+             height: 130px;
+            
+             position: absolute;
+             right: 0;
+             bottom: 0;
+             border-top: 6px  #714523  solid;
+             border-left: 6px  #714523  solid;
+             border-radius: 65px 0 0 0;
+             
+         }
+         footer .p1{
+             color: #907154;
+             font-size: 20px;
+             padding-top: 27px;
+             padding-left: 95px;
+
+         }
+         footer .p2{
+             font-size: 14px;
+             color: black;
+             padding-left: 95px;
+             padding-top: 5px;
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent clearfix">
+            <header class="clearfix">
+                    <img src="img/main_logo.png" class="img1">
+                    <ul class="nav clserfix">
+                        <li><a href="#" class="a1">GINE Roll</a></li>
+                        <li><a href="#">GINE Susl</a></li>
+                        <li><a href="#">MENU </a></li>
+                        <li><a href="#">INTERIOR </a></li>
+                        <li><a href="#">MAP </a></li>
+                        <li><a href="#">COMMUNITY </a></li>
+                        <li><a href="#" class="a7">LOGIN </a></li>
+                    </ul>
+                    <img src="img\01_1.jpg" class="img2">
+                    <img src="img\05_2.jpg" class="img3">
+                    <div class="clearfix">
+                        <img src="img\05_3.jpg" alt="">
+                        <p>home >love >seclet >commontion</p>
+                    </div>
+                </header>
+                <section class="clearfix">
+                        <div class="left clearfix">
+                                <ul>
+                                    <li><a href="">01 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">02 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">03 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">04 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">05 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">06 vdwvbrgbtgnhntyjbfe</a></li>
+                                    <li><a href="">07 vdwvbrgbtgnhntyjbfe</a></li>
+                                </ul>
+                                <img src="img\01_4.jpg" >
+                         </div>
+                         <div class="right clearfix">
+                                <p class="p1">vriehvbrwvb</p>
+                                <div class="div0"></div>
+                                <p class="p2">vrefbtyhyheadfwfebyhjehrgwefegf</p>
+                                <p class="p3">bgthnhymyujt56hyerfgegvfdbh</p>
+                                <div class="div1">
+                                    <p class="p1">home</p>
+                                    <p class="p2">vgr</p>
+                                    <p class="p3">bghy</p>
+                                    <p class="p4">wfrt5</p>
+                                    <p class="p5">gtth</p>
+                                </div>
+                                <div class="div2">
+                                        <p class="a1">3062</p>
+                                        <p class="a2">vgrrevrbbrgergrbgtvf</p>
+                                        <p class="a3">2006-01-30</p>
+                                        <p class="a4">56</p>
+                                        <img src="img/05_4.jpg" alt="">
+                                </div>
+                                <div class="div3">
+                                        <p class="a1">3062</p>
+                                        <p class="a2">vgrrevrbbrgergrbgtvf</p>
+                                        <p class="a3">2006-01-30</p>
+                                        <p class="a4">56</p>
+                                        <img src="img/05_5.jpg" alt="">
+                                </div>
+                                <div class="div4">
+                                        <p class="a1">3062</p>
+                                        <p class="a2">vgrrevrbbrgergrbgtvf</p>
+                                        <p class="a3">2006-01-30</p>
+                                        <p class="a4">56</p>
+                                </div>
+                                <div class="div5">
+                                        <p class="a1">3062</p>
+                                        <p class="a2">vgrrevrbbrgergrbgtvf</p>
+                                        <p class="a3">2006-01-30</p>
+                                        <p class="a4">56</p>
+                                        <img src="img/05_6.jpg" alt="">
+                                </div>
+                                <div class="div4">
+                                        <p class="a1">3062</p>
+                                        <p class="a2">vgrrevrbbrgergrbgtvf</p>
+                                        <p class="a3">2006-01-30</p>
+                                        <p class="a4">56</p>
+                                </div>
+                             <button class="btn1"><</button>
+                             </button>
+                             <p class="pp">1|2|3|4|5|6|7|8|9|10</p>
+                             <button class="btn2">></button>  
+                              
+                         </div>
+
+                </section>
+                <footer>
+                        <p class="p1">vbefivb ifnwrpe jfi0nv deopqfn vntpoibn fnrpo vopfnv nvofi </p>
+                        <p class="p1">nbronbg grtadb bahrh goog ncpivn finvf v frv</p>
+                        <p class="p2">ncfvbfiubvrf vnifv vfrib ncivnf vvbi</p>
+        
+                </footer>
+    </div>
+</body>
+</html>

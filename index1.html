@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        .parent{
+            width: 1100px;
+            height: 850px;
+            background: url('img/main_bg.jpg') repeat;
+            padding-left:32px ;
+            padding-right: 176px;
+            margin: 0 auto;
+        }
+    
+        header img{
+            padding-top: 53px;
+            padding-left: 55px;
+        }
+        header .nav{
+            width: 644px;
+            float: right;
+        }
+        .nav li{
+            width: 92px;
+            float: left;
+        }
+        .nav a{
+            display: block;
+            height: 119px;
+            background: url('img/main_menubj.jpg') repeat-y;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            line-height: 119px;
+            }
+            .nav .a1{
+                border-radius:0 0 0 25px;
+            }
+            .nav .a7{
+                border-radius:0 0 25px 0;
+            }
+            .nav a:hover{
+                background: url('img/main_menubj2.jpg') repeat-y;
+            }
+            section{
+               position: relative;
+            }
+            section .left{
+                width: 523px;
+                height:530px ;
+                background-color:#fe6300 ;
+                margin-top: 30px;
+                border-radius: 40px;
+                padding-top: 35px;
+                padding-right: 40px;
+                float: left;
+                position: relative;
+            }
+            .left .img1,.img2{
+                display: block;
+               
+                padding-left: 45px;
+            }
+            .left button{
+                border: none;
+                margin: 0;
+                padding: 0;
+                width: 33px;
+                height: 15px;
+                background-color: #ff8a00;
+                border-radius: 8px;
+                color:white;
+                float: right;
+                cursor: pointer;
+                margin-left: 1px;
+                margin-top: 18px;
+                
+            }
+            .left .img3{
+                border-radius: 35px;
+                /* margin: 11px; */
+                position: absolute;
+                left: 11px;
+                bottom: 11px;
+            }
+            section .right{
+                width: 335px;
+                margin-top: 50px;
+                float: right;
+                position: relative;
+                padding-top: 10px;
+            }
+            .right h2{
+                color: white;
+ 
+            }
+            .right .news{
+                float: right;
+                position: absolute;
+                right: 170px;
+                top: 10px;
+
+            }
+            .right .p1{
+                color: white;
+                font-size: 16px;
+            }
+            .right a{
+                display: block;
+                float: right;
+                color: white;
+                position: absolute;
+                right: 40px;
+                top: 30px;
+                
+            }
+            .right div{
+                float: left;
+                 }
+            .right .button1{
+                border: none;
+                margin: 0;
+                padding: 0;
+                width: 31px;
+                height: 11px;
+                color: white;
+                font-size: 10px;
+                text-align: center;
+                line-height: 8px;
+                cursor: pointer;
+                background-color: #fa7e2f;
+            }
+            .right .p2{
+                color: #907154;
+                float: right;
+                padding-right: 200px;
+                padding-left: 10px;
+                }
+         .right .center{
+             margin-top: 43px;
+             border: 1px  #907154 solid;
+             width: 334px;
+             height: 105px;
+             padding-left: 10px;
+
+    }
+    .center h2{
+        color: white;
+        padding-top: 18px;
+    }
+    .center img{
+        padding-top: 6px;
+    }
+    .center p{
+        width: 97px;
+        margin: 0 auto;
+        padding-top: 8px;
+        column-count: 3;
+        column-rule-style: solid;
+        direction: ltr;
+        unicode-bidi: bidi-override;
+        color: #907154;
+        font-size: 10px;
+        float: right;
+    }
+    .box1{
+        margin-top: 30px;
+        padding-right: 35px;
+        margin-bottom: 50px;
+        border-right: 1px #907154  solid;
+    }
+    .box1 h3{
+        color: white;
+        float: right;
+        padding-left: 10px;
+        padding-top: 15px;
+
+
+    }
+    .box2{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        float:right;
+    }
+    .box2 img{
+        padding-left: 6px;
+    }
+    .box2 h3{
+        color: white;
+        float: right;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 15px;
+
+
+    }
+    .btn{
+        display: block;
+        border: none;
+        padding: 0;
+        margin: 0;
+        width: 40px;
+        height: 13px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        line-height: 8px;
+        cursor: pointer;
+        margin-bottom: 10px;
+       
+      }
+      .box3{
+          
+          width: 240px;
+          position: absolute;
+          top: 390px;
+          left: 80px;
+      }
+      .box3 p{
+          color: white;
+          font-size: 16px;
+          position: absolute;
+          top: 36px;
+          left: 120px;
+      }
+      .box3 div{
+          width: 30px;
+          height: 30px;
+          background-color: black;
+          color: white;
+          text-align: center;
+          line-height: 30px;
+          position: absolute;
+          top: 30px;
+          left: 200px;
+          border-radius: 2px;
+
+      }
+         footer{
+             display: block;
+             width: 1067px;
+             height: 133px;;
+             margin-top: 38px;
+             border-top: 6px  #714523  solid;
+             border-left: 6px  #714523  solid;
+             border-radius: 65px 0 0 0;
+             
+         }
+         footer .p1{
+             color: #907154;
+             font-size: 20px;
+             padding-top: 27px;
+             padding-left: 95px;
+
+         }
+         footer .p2{
+             font-size: 14px;
+             color: black;
+             padding-left: 95px;
+             padding-top: 5px;
+         }
+            
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <header class="clearfix">
+            <img src="img/main_logo.png" alt="">
+            <ul class="nav clserfix">
+                <li><a href="#" class="a1">GINE Roll</a></li>
+                <li><a href="#">GINE Susl</a></li>
+                <li><a href="#">MENU </a></li>
+                <li><a href="#">INTERIOR </a></li>
+                <li><a href="#">MAP </a></li>
+                <li><a href="#">COMMUNITY </a></li>
+                <li><a href="#" class="a7">LOGIN </a></li>
+            </ul>
+        </header>
+        <section class="clearfix">
+            <div class="left clearfix">
+                <img src="img/main_text1.jpg" alt="" class="img1">
+                <img src="img/main_text2.jpg" alt="" class="img2">
+                <button>03</button> <button>02</button> <button>01</button>
+                <img src="img\main_1.jpg" alt="" class="img3">
+
+            </div>
+            <div class="right clearfix">
+                <h2>What's News!!</h2>
+                <img src="img/main_news.jpg" alt="" class="news">
+                <p  class="p1">c deouveurifwio ndcrfdf</p>
+                <a href="#">MORE></a>
+                <div><button class="button1">NEWS</button><p class="p2">ducc fgr fjdfnh </p></p></div>
+                <div><button class="button1">MORE</button><p class="p2">ducc fgr fjdfv</p></p></div>
+                <div><button class="button1">LEFTG</button><p class="p2">ducc fgr fjdf</p></p></div>
+                <div><button class="button1">RIGHT</button><p class="p2">ducc fgr fjdf</p></p></div>
+              <div class="center">
+                <h2>OPENING CONSULTING</h2>
+                <img src="img/main_right2.jpg" alt="">
+                <p>内核内核内核内核内核内核内核内核</p>
+              </div>
+
+            
+            <div class="box1 clearfix">
+                <img src="img/main_3.jpg" alt="">
+                <h3>CF STORY</h3>
+
+            </div>
+            <div class="box2">
+                    <img src="img/main_2.jpg" alt="">
+                    <h3>CF STORY</h3>
+            </div>
+            <button class="btn">MENU01</button>
+            <button class="btn">MENU02</button>
+            <button class="btn">MENU03</button>
+            <button class="btn">MENU04</button>
+            <button class="btn">MENU05</button>
+            <div class="box3">
+                <img src="img/main_4.jpg" alt="">
+                <p>nifvneivnvf <br>nivvf </p>
+                <div>go</div>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <p class="p1">vbefivb ifnwrpe jfi0nv deopqfn vntpoibn fnrpo vopfnv nvofi </p>
+            <p class="p1">nbronbg grtadb bahrh goog ncpivn finvf v frv</p>
+            <p class="p2">ncfvbfiubvrf vnifv vfrib ncivnf vvbi</p>
+        </footer>
+    </div>
+</body>
+</html>
